@@ -24,6 +24,8 @@ img {
 a {
   text-decoration: none;
   font-weight: bold;
+  display: block;
+  margin: 10px;
 }
 
 .btn-blue {
@@ -70,8 +72,13 @@ h1, h2, h3 {
 }
 
 .container {
-  width: 600px;
+  width: 700px;
   margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
 }
 
 .card-white {
@@ -114,4 +121,9 @@ h1, h2, h3 {
   .container {
     width: 300px;
   }
+
+  .row {
+  display: flex;
+  flex-direction: column;
+}
 }
